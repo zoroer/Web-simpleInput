@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+*,body{padding:0px; margin:0px;font-family: "微软雅黑","Microsoft Yahei",Arial,Helvetica,sans-serif,"宋体";}
+body{background:url(../img/pic3.jpg) no-repeat;}
+img{border:0px;}
+
+.background{height:auto; width:100%; margin:0px auto;}
+.title{height:80px; width:100%; margin:20px 0 0 0;}
+.title img{margin-left:20%; float:left;}
+.title span{height:65px; width:500px; color:#fff; font-size:22px; font-weight:bolder; letter-spacing:20px;  margin:10px 0 0 3%; float:left; padding-left:60px; padding-top: 20px; text-shadow:2px 2px 0 #839348;}
+
+.main{height:400px; width:950px;  margin:10px 0 0 20%;}
+.edit_area{height:400px; width:375px; float:left; border:2px solid #fff; opacity:0.6; filter:alpha(opacity=60); font-size:20px;}
+#copyAll{height:30px; width:80px;background:#fff; border:0px; margin:365px 0 0 290px; cursor:pointer;}
+.input{height:40px; width:360px; float:left ;margin:0 0 0 10px; border:2px solid #fff;}
+.choose{height:350px; width:360px; float:left; margin:10px 0 0 10px; border:2px solid #fff;}
+.circle{height:50px; width:50px; float:left; border-radius:90px; border:2px solid #fff; text-align:center; color:#fff; margin:-45px 0 0 10px; line-height:50px;}
+.copyAll{height:45px; width:50px; border-radius:90px; text-align:center; color:#fff;  float:left; border:2px solid #fff; margin:0 10px 0 43px; padding-top:5px; cursor:pointer;}
+.clearAll{height:45px; width:50px; border-radius:90px; text-align:center; color:#fff; float:left; border:2px solid #fff;padding-top:5px;cursor:pointer;}
+
+.footer{height:70px; width:100%; border:1px solid #fff; border-width:2px 0 0 0; margin:20px 0 0 0;}
+.footer p{line-height:70px; color:#fff; text-align:center;}
+
+
+

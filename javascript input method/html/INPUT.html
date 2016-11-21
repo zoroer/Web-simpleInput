@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>webFly在线输入法</title>
+<script type="text/javascript" language="javascript" src="../js/pinyin-jianti-table.js"></script>
+<script type="text/javascript" language="javascript" src="../js/core.js"></script>
+<link rel="stylesheet" type="text/css" href="../css/INPUT.css" />
+<link rel="icon" href="../img/b.ico" />
+</head>
+
+<body>
+<div class="background">
+    <div class="title">
+        <img src="../img/logo.png" /> <span>webFly在线输入法</span>
+    </div>
+    <div class="main">
+    <form  name="form1"   action="return false" method="post">
+        <textarea class="edit_area" id="edit_area" name="edit_area"  onkeypress="return key_press(event);" onkeydown="return key_down(event);" onkeyup="return key_up(event);" autofocus>
+        </textarea>
+
+        <div class="input" id="input" onclick="focu()"></div>
+        <div class="choose" id="choose" onclick="focu()"></div>
+
+        <div class="circle" ><input type="radio" checked  name="ch_en_switch" onclick="focu()"/>汉字</div>
+        <div class="circle" ><input type="radio"  name="ch_en_switch" onclick="focu();clear_all();"/>英文</div>
+        <div class="circle" ><input type="checkbox"  id="full_shape2"  name="full_shape" onclick="focu()"/>全角</div>
+        <div class="copyAll" onclick="highlight_copy();">复制<br />全文</div>
+        <div class="clearAll" onclick="clear_words_all();">清除<br />全文</div>
+    </form>
+    </div>
+    <div class="footer"><p>© 2016 - 2017 webfly LLC. All Rights Reserved.</p></div>
+</div>
+
+<script>
+    window._bd_share_config={
+        common:{
+            bdSnsKey : {},
+            bdText : document.title,    //分享的内容
+            bdMini : "2",             //一键分享中下拉菜单的列数
+            bdMiniList : false,
+            bdPic : "",
+            bdStyle : "1",
+            bdSize : "24",
+            bdUrl : "www.baidu.com"   //分享的Url地址
+        },
+        slide:[{                     //悬浮分享设置
+            bdImg : 0,
+            bdPos : "right",
+            bdTop : 200,
+            bdPos : "right"         //分享位置
+        }]
+    };
+
+    with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+</body>
+</html>
